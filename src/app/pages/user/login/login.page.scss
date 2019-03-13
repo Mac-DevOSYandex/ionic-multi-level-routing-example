@@ -1,0 +1,23 @@
+ion-content {
+    --background: none
+}
+ion-card {
+    --background: white;
+}
+
+ion-item{
+    --background: var(--ion-color-tertiary);
+    --color: #fff;
+}
+
+ion-button{
+    --background: var(--ion-color-tertiary-shade);
+}
+ion-row {
+    justify-content: center;
+ }
+
+a {
+    color: rgb(205, 4, 255);
+    text-decoration: none;
+}

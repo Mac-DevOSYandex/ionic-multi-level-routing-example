@@ -1,11 +1,19 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": {
-    "outDir": "../out-tsc/app",
-    "types": []
-  },
-  "exclude": [
-    "test.ts",
-    "**/*.spec.ts"
-  ]
+    "extends": "../tsconfig.json",
+    "compilerOptions": {
+        "outDir": "../out-tsc/app",
+        "types": ["node"],
+        "baseUrl": ".",
+        "paths": {
+            "@ig/*": ["app/*"],
+            "@core/*": ["app/core/*"],
+            "@state/*": ["app/states/*"],
+            "@pages/*": ["app/pages/*"],
+            "@providers/*": ["app/providers/*"],
+            "@theme/*": ["theme/*"],
+            "@assets/*": ["assets/*"],
+            "@env": ["environments/*"]
+        }
+    },
+    "exclude": ["test.ts", "**/*.spec.ts"]
 }
