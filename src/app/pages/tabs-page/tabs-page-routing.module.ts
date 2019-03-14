@@ -35,7 +35,7 @@ const routes: Routes = [
                 children: [
                     {
                         path: '',
-                        loadChildren: '@ig/tabs/tabs.module#TabsModule',
+                        loadChildren: '@ig/tabs/tabs/tabs.module#TabsModule',
                     },
                 ],
             },
