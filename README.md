@@ -1,6 +1,6 @@
 # Ionic Multi-level Routing Example
 
-This example is purely to demo multi-level routing of the Ionic Framework and Angular Router with Lazy Loading components/pages. In a real application guards would be used to load and activate certain routes accordingly.
+This example is purely to demo multi-level routing of the Ionic Framework and Angular Router with Lazy Loading components/pages. In a real application guards would be used to load, activate & deactivate certain routes accordingly.
 
 **The about page Ionic Conference, alas...**
 
@@ -12,6 +12,7 @@ This example is just to show off Ionic components and Angular's routing capabili
     -   [Table of Contents](#table-of-contents)
     -   [Getting Started](#getting-started)
     -   [App Preview](#app-preview)
+    -   [TypeScript Paths](#typescript-paths)
 
 ## Getting Started
 
@@ -46,3 +47,7 @@ NB. It has not been tested on a simulator.
     <img src="./src/assets/scrnsht/AboutPage.jpg" width="180"  alt="About">
 
 > **<b>Note</b>, the use of [global](/src/global.scss) background image and how it is applied in the local scss file...**
+
+## TypeScript Paths
+
+> **<b>Use it</b>... it will make it easier to work out paths and minimal breakages when refeactoring**
