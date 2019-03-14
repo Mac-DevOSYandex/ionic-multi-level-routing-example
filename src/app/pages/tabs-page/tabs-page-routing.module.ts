@@ -15,65 +15,39 @@ const routes: Routes = [
                         path: '',
                         component: RegisterPage,
                     },
+                    {
+                        path: 'register/:sessionId',
+                        loadChildren: '@pages/user/register/register.module#RegisterModule',
+                    },
                 ],
             },
-            // {
-            //   path: 'schedule',
-            //   children: [
-            //     {
-            //       path: '',
-            //       component: SchedulePage,
-            //     },
-            //     {
-            //       path: 'session/:sessionId',
-            //       loadChildren: '../session-detail/session-detail.module#SessionDetailModule',
-            //     },
-            //   ],
-            // },
-            // {
-            //   path: 'speakers',
-            //   children: [
-            //     {
-            //       path: '',
-            //       loadChildren: '../speaker-list/speaker-list.module#SpeakerListModule',
-            //     },
-            //     {
-            //       path: 'session/:sessionId',
-            //       loadChildren: '../session-detail/session-detail.module#SessionDetailModule',
-            //     },
-            //     {
-            //       path: 'speaker-details/:speakerId',
-            //       loadChildren: '../speaker-detail/speaker-detail.module#SpeakerDetailModule',
-            //     },
-            //   ],
-            // },
-            // {
-            //   path: 'map',
-            //   children: [
-            //     {
-            //       path: '',
-            //       loadChildren: '../map/map.module#MapModule',
-            //     },
-            //   ],
-            // },
-            // {
-            //   path: 'carpool',
-            //   children: [
-            //     {
-            //       path: '',
-            //       loadChildren: '../car-pool/car-pool.module#CarPoolModule',
-            //     },
-            //   ],
-            // },
-            // {
-            //   path: 'about',
-            //   children: [
-            //     {
-            //       path: '',
-            //       loadChildren: '../about/about.module#AboutModule',
-            //     },
-            //   ],
-            // },
+            {
+                path: 'about',
+                children: [
+                    {
+                        path: '',
+                        loadChildren: '../about/about.module#AboutModule',
+                    },
+                ],
+            },
+            {
+                path: 'welcome',
+                children: [
+                    {
+                        path: '',
+                        loadChildren: '@ig/tabs/tabs.module#TabsModule',
+                    },
+                ],
+            },
+            {
+                path: 'login',
+                children: [
+                    {
+                        path: '',
+                        loadChildren: '@pages/user/login/login.module#LoginModule',
+                    },
+                ],
+            },
             {
                 path: '',
                 redirectTo: '/app/tabs/welcome',
