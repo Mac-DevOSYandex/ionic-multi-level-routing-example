@@ -9,6 +9,7 @@
             "@core/*": ["app/core/*"],
             "@state/*": ["app/states/*"],
             "@pages/*": ["app/pages/*"],
+            "@tabs/*": ["app/tabs/*"],
             "@providers/*": ["app/providers/*"],
             "@theme/*": ["theme/*"],
             "@assets/*": ["assets/*"],
