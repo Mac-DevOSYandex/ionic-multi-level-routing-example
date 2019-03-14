@@ -13,7 +13,7 @@
             "@providers/*": ["app/providers/*"],
             "@theme/*": ["theme/*"],
             "@assets/*": ["assets/*"],
-            "@env": ["environments/*"]
+            "@env/*": ["environments/*"]
         }
     },
     "exclude": ["test.ts", "**/*.spec.ts"]

@@ -50,4 +50,4 @@ NB. It has not been tested on a simulator.
 
 ## TypeScript Paths
 
-> **<b>Use it</b>... it will make it easier to work out paths and minimal breakages when refeactoring**
+>**I strongly encourage the use of typescrypt paths in your projects, it will makes it easier to work out paths and minimise breaking changes when refeactoring**

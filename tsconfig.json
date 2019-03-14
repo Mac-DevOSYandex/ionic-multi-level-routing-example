@@ -11,7 +11,7 @@
             "@providers/*": ["src/app/providers/*"],
             "@theme/*": ["src/theme/*"],
             "@assets/*": ["src/assets/*"],
-            "@env": ["src/environments/*"]
+            "@env/*": ["src/environments/*"]
         },
         "outDir": "./dist/out-tsc",
         "sourceMap": true,
