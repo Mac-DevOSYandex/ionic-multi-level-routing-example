@@ -8,7 +8,7 @@ import { PopoverController } from '@ionic/angular';
     styleUrls: ['./about.scss'],
 })
 export class AboutPage {
-    conferenceDate = '2047-05-17';
+    conferenceDate = '2019-05-17';
 
     constructor() {}
 }
