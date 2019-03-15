@@ -8,17 +8,17 @@ This example is just to show off Ionic components and Angular's routing capabili
 
 ## Table of Contents
 
--   [Ionic Multi-level Routing Example](#ionic-multi-level-routing-example)
-    -   [Table of Contents](#table-of-contents)
-    -   [Getting Started](#getting-started)
-    -   [App Preview](#app-preview)
-    -   [TypeScript Paths](#typescript-paths)
+- [Ionic Multi-level Routing Example](#ionic-multi-level-routing-example)
+  - [Table of Contents](#table-of-contents)
+  - [Getting Started](#getting-started)
+  - [App Preview](#app-preview)
+  - [TypeScript Paths](#typescript-paths)
 
 ## Getting Started
 
 -   [Download the installer](https://nodejs.org/) for Node.js 6 or greater.
 -   Install the ionic CLI globally: `npm install -g ionic`
--   Clone this repository: `git clone https://github.com/ionic-team/ionic-multilevel-routing.git`.
+-   Clone this repository: `git clone https://github.com/Mac-DevOSYandex/ionic-multi-level-routing-example.git`.
 -   Run `npm install` from the project root.
 -   Run `ionic serve` in a terminal from the project root.
 -   There you have it!
@@ -50,4 +50,4 @@ NB. It has not been tested on a simulator.
 
 ## TypeScript Paths
 
->**I strongly encourage the use of typescrypt paths in your projects, it will makes it easier to work out paths and minimise breaking changes when refeactoring**
+> **I strongly encourage the use of typescrypt paths in your projects, it will makes it easier to work out paths and minimise breaking changes when refeactoring**
